@@ -20,8 +20,8 @@ footer{margin-top:59px;padding:23px 0 29px;border-top:1px solid #ffffff13;color:
 <body>
 <div class="wrap">
 <header>
- <div class="brand"><div class="mark" aria-hidden="true">ف</div><div><div class="brand-name">فرصتك</div><div class="brand-en">F O R S A T A K</div></div></div>
- <div class="top-note">مسارك يبدأ بقرار</div>
+ <a class="brand" href="index.html" style="color:inherit;text-decoration:none"><img src="assets/forsatak-logo.svg" alt="" style="width:45px;height:45px"><div><div class="brand-name">فرصتك</div><div class="brand-en">F O R S A T A K</div></div></a>
+ <nav style="display:flex;align-items:center;gap:18px"><a href="about.html" style="color:#b4c3b9;text-decoration:none;font-size:12px">عن فرصتك</a><a href="safety.html" style="color:#b4c3b9;text-decoration:none;font-size:12px">الأمان</a><div class="top-note">مسارك يبدأ بقرار</div></nav>
 </header>
 <main>
  <section class="hero">
@@ -32,7 +32,7 @@ footer{margin-top:59px;padding:23px 0 29px;border-top:1px solid #ffffff13;color:
  </section>
  <div class="select-label">أين تبدأ رحلتك؟<small>اختر المسار الأقرب إلى خطوتك القادمة</small></div>
  <section class="choices" aria-label="اختيار مسار البحث عن العمل">
-  <a class="choice" href="#egypt" onclick="event.preventDefault();const n=document.getElementById('notice');n.hidden=false;document.getElementById('noticeText').textContent='نعمل على تجهيز هذا المسار بفرص موثّقة ومعلومات واضحة. لن نعرض وظائف غير متحقق منها.';n.scrollIntoView({behavior:'smooth',block:'nearest')}">
+  <a class="choice" href="#egypt" onclick="event.preventDefault();const n=document.getElementById('notice');n.hidden=false;document.getElementById('noticeText').textContent='نعمل على تجهيز هذا المسار بفرص موثّقة ومعلومات واضحة. لن نعرض وظائف غير متحقق منها.';n.scrollIntoView({behavior:'smooth',block:'nearest'})">
    <div class="card-top"><div class="icon-wrap" aria-hidden="true">⌂</div><span class="card-index">PATH 01</span></div>
    <h2>فرص داخل مصر</h2><p>خطوتك المهنية التالية قد تكون أقرب مما تظن. ابدأ باستكشاف الطريق الذي يناسب خبرتك وطموحك.</p>
    <div class="go"><span>المسار المصري</span><span class="arrow">←</span></div>
@@ -45,8 +45,12 @@ footer{margin-top:59px;padding:23px 0 29px;border-top:1px solid #ffffff13;color:
  </section>
  <div class="trust"><span class="trust-icon">✦</span><div><b>فرصتك تبدأ بالوعي.</b><br>تحقّق من جهة العمل والعقد والتأشيرة قبل دفع أي رسوم أو مشاركة بياناتك. ستُضاف الوظائف بعد التحقق من مصادرها؛ هذه النسخة لا تعرض حاليًا قوائم وظائف فعلية.</div></div>
  <div id="notice" class="trust" role="status" aria-live="polite" hidden><span class="trust-icon">ⓘ</span><div id="noticeText"></div></div>
+<section style="max-width:880px;margin:48px auto 0;padding:28px;border:1px solid #ffffff15;border-radius:20px;background:linear-gradient(120deg,#11271e,#0b1915);display:grid;grid-template-columns:1.3fr 1fr;gap:24px;align-items:center">
+ <div><div style="color:#d9c18a;font-size:12px;margin-bottom:8px">فلسفتنا</div><h2 style="font-size:clamp(22px,4vw,30px);line-height:1.5;margin:0 0 10px">لسنا هنا لنبيعك حلمًا.<br><span style="color:#c5f1a1">بل لنساعدك أن ترى الطريق.</span></h2><p style="color:#a9b9b1;font-size:13px;line-height:1.9;margin:0">نؤمن أن الوصول يبدأ بمعلومة واضحة، وخطوة محسوبة، ووعي يحمي طموحك.</p></div>
+ <div style="display:grid;gap:10px"><a href="about.html" style="padding:13px 15px;border:1px solid #345544;border-radius:12px;color:#e9f3e8;text-decoration:none;font-size:13px">تعرّف على فرصتك <span style="float:left;color:#c5f1a1">←</span></a><a href="safety.html" style="padding:13px 15px;border:1px solid #345544;border-radius:12px;color:#e9f3e8;text-decoration:none;font-size:13px">دليل الأمان والتحقق <span style="float:left;color:#c5f1a1">←</span></a></div>
+</section>
 </main>
-<footer><span><span class="footer-brand">فرصتك</span> © <span id="year"></span> — كل بداية تستحق فرصة.</span><span class="footer-tag">وضوح في الطريق. ثقة في الخطوة.</span></footer>
+<footer><span><span class="footer-brand">فرصتك</span> © <span id="year"></span> — كل بداية تستحق فرصة.</span><span class="footer-tag">وضوح في الطريق. ثقة في الخطوة.</span><span><a href="about.html" style="color:#a0b4a5;text-decoration:none">عن فرصتك</a> · <a href="safety.html" style="color:#a0b4a5;text-decoration:none">الأمان</a></span></footer>
 </div>
 <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
