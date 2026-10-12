@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">شعار فرصتك</title><desc id="desc">حرف الفاء العربي داخل إطار زمردي أنيق مع لمسة ذهبية</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8f5b8"/><stop offset="1" stop-color="#8fbf6e"/></linearGradient><linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e2d0a0"/><stop offset="1" stop-color="#9dc67b"/></linearGradient></defs>
+<rect x="12" y="12" width="232" height="232" rx="58" fill="#07110f" stroke="url(#stroke)" stroke-width="3"/>
+<rect x="26" y="26" width="204" height="204" rx="46" fill="none" stroke="#c5f1a1" stroke-opacity=".22"/>
+<path d="M80 86 Q80 69 98 69 H177 V91 H106 Q101 91 101 98 V123 H162 V145 H101 V178 H78 V98 Q78 91 80 86Z" fill="url(#bg)"/>
+<circle cx="174" cy="119" r="10" fill="#d9c18a"/><circle cx="174" cy="119" r="3" fill="#07110f"/>
+<path d="M78 193 H177" stroke="url(#stroke)" stroke-width="3" stroke-linecap="round"/>
+</svg>
